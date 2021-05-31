@@ -1559,7 +1559,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   joueur: {fileID: 1854381688}
-  sensitivite: 70
+  sensitivite: 200
 --- !u!1 &1854381685
 GameObject:
   m_ObjectHideFlags: 0
@@ -1572,6 +1572,7 @@ GameObject:
   - component: {fileID: 1854381687}
   - component: {fileID: 1854381686}
   - component: {fileID: 1854381689}
+  - component: {fileID: 1854381690}
   m_Layer: 0
   m_Name: Joueur
   m_TagString: Untagged
@@ -1650,6 +1651,20 @@ MonoBehaviour:
   controlleur: {fileID: 1854381688}
   hauteurEchelle: 10.2
   joueur: {fileID: 0}
+--- !u!114 &1854381690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1854381685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad250a99589a06d45baa84a63f5b115d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  longueurAmasser: 3.5
+  cameraJoueur: {fileID: 1687258584}
 --- !u!1 &1904166338
 GameObject:
   m_ObjectHideFlags: 0
