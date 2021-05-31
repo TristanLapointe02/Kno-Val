@@ -52,7 +52,12 @@ public class inventaire : MonoBehaviour
     {
         RaycastHit amasser;
         if (Physics.Raycast(cameraJoueur.transform.position, cameraJoueur.transform.forward, out amasser, longueurAmasser))
+            //En Appuyant sur F, un laser part tout droit de la caméra à une longueur précise et détruit l'objet en contact
         {
+            if(amasser.collider.tag == "amassable")
+            {
+                Destroy(amasser.transform.gameObject);
+            }
             Debug.Log(amasser.transform.name);
         }
     }
