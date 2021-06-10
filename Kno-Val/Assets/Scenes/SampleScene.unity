@@ -329,7 +329,7 @@ GameObject:
   - component: {fileID: 252333681}
   - component: {fileID: 252333680}
   m_Layer: 6
-  m_Name: Plane
+  m_Name: Plane - Terrain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
